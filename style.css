@@ -1,0 +1,186 @@
+@font-face {
+    font-family: superMarioBros2;
+    src: url(./lib/fonts/Super-Mario-Bros\ -2.ttf)
+}
+
+@font-face {
+    font-family: deathFont;
+    src: url(./lib/fonts/death-font.TTF)
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+header {
+    padding-top: 2rem;
+    display: flex;
+    place-content: center;
+    gap: 2.5em;
+    
+}
+
+.header__button {
+    transform: translateY(.9rem);
+    font-family: superMarioBros2;
+    font-size: .66rem;
+    display: grid;
+    place-items: center;
+    padding: .25rem;
+    width: 4rem;
+    height: 2.5rem;
+    border: 2px solid white;
+    border-bottom: 8px solid white;
+    border-right: 4px solid white;
+    color: white;
+    letter-spacing: .05rem;
+}
+
+.header__button:active {
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+}
+
+#header__logo {
+    color: white;
+    font-family: deathFont;
+    font-size: 2rem;
+}
+
+#mobile__menu__button {
+    display: none;
+}
+
+#hero-section {
+    margin-top: 2rem;
+    margin-left: 12.25vw;
+    border: 2px dotted white;
+    width: 75vw;
+    height: 6vh;
+    /* height: 60vh; */
+}
+
+#product-gallery {
+    width: 75vw;
+    margin-left: 12.25vw;
+    padding: 4rem 0;
+    /* height: 110vh; */
+    border: 2px solid white;
+
+    display: grid;
+    grid-template-columns: auto auto;
+
+    grid-auto-flow: dense;
+    row-gap: 6rem;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+    align-items: center;
+    /* background-color: white; */
+}
+
+.sample__product__listing {
+    width: 30vw;
+    max-width: 20rem;
+    height: 10rem;
+    background-color: white;
+}
+
+.product__type__label {
+    width: 75vw;
+    margin-left: 12.25vw;
+    margin-top: 3rem;
+    font-family: deathFont;
+    background-color: white;
+    color: black;
+    font-size: 1.5rem;
+    letter-spacing: .075rem;
+    padding: .5rem 0 .5rem .5rem;
+}
+
+footer {
+    font-size: .66rem;
+    margin: 4rem 0 1rem 0;
+    font-family: superMarioBros2;
+    display: grid;
+    place-items: center;
+    color: white;
+    letter-spacing: .05rem;
+}
+
+.tall {
+    height: 25rem;
+}
+
+.medium {
+    height: 15rem;
+}
+
+
+
+@media (max-width: 47rem) {
+    body {
+
+    }
+
+    .header__button {
+        display: none;
+    }
+
+    #header__logo {
+        position: absolute;
+        left: 1rem;
+        font-size: 1rem;
+    }
+
+    #mobile__menu__button {
+        position: absolute;
+        top: 1.5rem;
+        right: 1.5rem;
+        font-family: superMarioBros2;
+        font-size: .66rem;
+        display: grid;
+        place-items: center;
+        padding: .25rem;
+        width: 4rem;
+        height: 2.5rem;
+        border: 2px solid white;
+        border-bottom: 8px solid white;
+        border-right: 4px solid white;
+        color: white;
+        letter-spacing: .05rem;
+    }
+
+    #mobile__menu__button:active {
+        border-bottom: 2px solid white;
+        border-right: 2px solid white;
+    }
+
+    #hero-section {
+        display: none;
+    }
+
+    #mobile-hero-section {
+        display: relative;
+        margin-top: 2rem;
+        margin-left: 12.25vw;
+        border: 2px dotted white;
+        width: 75vw;
+        height: 6vh;
+        /* height: 54vh; */
+        margin-top: 6rem;
+    }
+
+    #product-gallery {
+        grid-template-columns: 1fr;
+        row-gap: 4rem;
+    }
+
+    .sample__product__listing {
+        width: 66vw;
+    }
+    
+}
