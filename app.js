@@ -1,6 +1,6 @@
 $('#mobile__menu__button').click(function() {
     $('#mobile-menu').slideDown("slow")
-    $('#mobile-menu').css('display', 'relative')
+    $('#mobile-menu').css('display', 'flex')
 
     $('#mobile__menu__button').css('display', 'none')
     $('#close__button').css('display', 'grid')
@@ -20,7 +20,7 @@ let pRatio = 16/rootFontSize;
 $(window).resize(function() {
     var sWidth = $(window).width()
     console.log(sWidth)
-    if (sWidth > 750 * pRatio) {
+    if (sWidth > 736 * pRatio) {
         $('#mobile__menu__button').css('display', 'none')
         $('#close__button').css('display', 'none')
         $('#mobile-menu').css('display', 'none')

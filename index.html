@@ -6,23 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MYSTERY BIN</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="img/png" href="./lib/imgs/favicon-32x32.png">
     <script src="lib/jquery-3.6.0.min.js"></script>
     <script src="app.js" defer></script>
 </head>
 <body>
     
 <header>
-    <button class="header__button shop__button"><a>SHOP</a></button>
+    <button class="header__button shop__button"><a href="#shop-anchor">SHOP</a></button>
     <div id="header__logo">
-        <h1>MYStERY B?N</h1>
+        <h1><a href="index.html">MYStERY B?N</h1></a>
     </div>
-    <button class="header__button"><a>INFO</a></button>
+    <button class="header__button"><a href="/lib/html/info.html">INFO</a></button>
     <button id="mobile__menu__button"><a>MENU</a></button>
     <button id="close__button"><a>CLOSE</a></button>
 </header>
 
 <div id="mobile-menu">
-
+    <button class="meta__mobile__menu__button"><a href="#shop-anchor">SHOP</a></button>
+    <button class="meta__mobile__menu__button"><a href="/lib/html/info.html">INFO</a></button>
 </div>
 
 <div id="hero-section">
@@ -33,12 +35,14 @@
 
 </div>
 
+<div id="shop-anchor"></div>
+
 <div class="product__type__label">stickers</div>
 <div id="product-gallery">
-    <div class="sample__product__listing tall">1</div>
-    <div class="sample__product__listing medium">2</div>
+    <div class="sample__product__listing">1</div>
+    <div class="sample__product__listing">2</div>
     <div class="sample__product__listing">3</div>
-    <div class="sample__product__listing tall">4</div>
+    <div class="sample__product__listing">4</div>
     <div class="sample__product__listing">5</div>
 </div>
 
