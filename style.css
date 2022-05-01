@@ -107,6 +107,10 @@ header {
     height: 8rem;
 }
 
+#mobile__hero__element__1 {
+    display: none;
+}
+
 .meta__mobile__menu__button {
     margin-top: 2rem;
     transform: translateY(.9rem);
@@ -144,7 +148,7 @@ header {
 }
 
 #shop-anchor {
-    margin-top: 1rem;
+    transform: translateY(-1.5rem);
 }
 
 #product-gallery {
@@ -174,7 +178,7 @@ header {
 .product__type__label {
     width: 75vw;
     margin-left: 12.25vw;
-    margin-top: 3rem;
+    margin-top: 4rem;
     font-family: deathFont;
     background-color: white;
     color: black;
@@ -243,14 +247,25 @@ footer {
     }
 
     #mobile-hero-section {
-        display: relative;
-        margin-top: 2rem;
-        margin-left: 12.25vw;
-        border: 2px dotted white;
-        width: 75vw;
-        height: 6vh;
-        height: 54vh;
-        margin-top: 6rem;
+        /* background-image: url(./lib/imgs/shhhhhhhhhhh.gif); */
+        background-size: cover;
+        display: none;
+        width: 100vw;
+        height: 28vh;
+        margin-top: 5rem;
+    }
+
+    #test {
+        width: 100vw;
+        height: 9rem;
+    }
+
+    #mobile__hero__element__1 {
+        display: block;
+        width: 2rem;
+        margin: 0 auto;
+        margin-top: 15rem;
+        margin-bottom: 11rem;
     }
 
     .product__type__label {
