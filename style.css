@@ -148,7 +148,7 @@ header {
 }
 
 #shop-anchor {
-    transform: translateY(-1.5rem);
+    transform: translateY(1.5rem);
 }
 
 #product-gallery {
@@ -283,6 +283,10 @@ footer {
 
     .sample__product__listing {
         width: 66vw;
+    }
+
+    #shop-anchor {
+        transform: translateY(-1.5rem);
     }
     
 }
