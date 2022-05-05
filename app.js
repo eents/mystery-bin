@@ -32,7 +32,7 @@ $(window).resize(function() {
 
 $(window).resize(function() {
     var screenHeight = $(window).height()
-    if (screenHeight < 300) {
+    if (screenHeight < 450) {
         $('#hero-section').css('display', 'none')
         $('.info-hero-banner').css('display', 'none')
     }
