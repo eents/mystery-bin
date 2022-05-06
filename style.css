@@ -8,6 +8,25 @@
     src: url(./lib/fonts/death-font.TTF)
 }
 
+.sample__product__listing {
+    display: grid;
+    place-items: center;
+}
+
+.shoptestest {
+    width: 30vw;
+    /* margin-left: 40px; */
+    display: grid;
+    place-items: center;
+}
+
+.sample__product__listing img {
+    height: 18rem;
+    z-index: 5;
+    background-color: transparent;
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -161,8 +180,8 @@ header {
 
 .sample__product__listing {
     width: 30vw;
-    max-width: 20rem;
-    height: 10rem;
+    /* max-width: 15rem; */
+    height: 15rem;
     background-color: white;
 }
 

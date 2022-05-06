@@ -30,14 +30,14 @@ $(window).resize(function() {
     }
 })
 
-$(window).resize(function() {
-    var screenHeight = $(window).height()
-    if (screenHeight < 450) {
-        $('#hero-section').css('display', 'none')
-        $('.info-hero-banner').css('display', 'none')
-    }
-    else {
-        $('#hero-section').css('display', 'flex')
-        $('.info-hero-banner').css('display', 'flex')
-    }
-})
+// $(window).resize(function() {
+//     var screenHeight = $(window).height()
+//     if (screenHeight < 450) {
+//         $('#hero-section').css('display', 'none')
+//         $('.info-hero-banner').css('display', 'none')
+//     }
+//     else {
+//         $('#hero-section').css('display', 'flex')
+//         $('.info-hero-banner').css('display', 'flex')
+//     }
+// })
